@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ALC_4.0</string>
+    <string name="nancy_eshiwani">Nancy Eshiwani</string>
+    <string name="track_android">Track : Android</string>
+    <string name="country_kenya">Country : Kenya</string>
+    <string name="email_eshiwanin_gmail_com">Email : eshiwanin@gmail.com</string>
+    <string name="phone_number_254700043611">Phone Number : +254700043611</string>
+    <string name="slack_username_nancyeshiwani">Slack Username : @nancyeshiwani</string>
+    <string name="my_profile_pic">my profile pic</string>
+</resources>

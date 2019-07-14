@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".profile">
+
+   <include
+       android:id="@+id/profile_toolbar"
+       layout="@layout/toolbar"
+       />
+
+    <ImageView
+     android:id="@+id/profile_img"
+     android:layout_width="match_parent"
+     android:layout_height="150dp"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="60dp"
+
+     android:contentDescription="@string/my_profile_pic"
+     android:src="@drawable/profile_1" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="89dp"
+        android:text="@string/nancy_eshiwani"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="89dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/name"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/track"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:paddingEnd="80dp"
+        android:paddingRight="1dp"
+        android:text="@string/track_android"
+        android:textAlignment="gravity"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Country"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/track"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:paddingEnd="80dp"
+        android:paddingRight="1dp"
+        android:text="@string/country_kenya"
+        android:textAlignment="gravity"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Country"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="13dp"
+        android:paddingEnd="80dp"
+        android:paddingRight="80dp"
+        android:text="@string/email_eshiwanin_gmail_com"
+        android:textAlignment="gravity"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="11dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/phone_number_254700043611"
+        android:textAlignment="gravity"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slack"
+        android:layout_width="359dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/phone_number"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/slack_username_nancyeshiwani"
+        android:textAlignment="gravity"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
